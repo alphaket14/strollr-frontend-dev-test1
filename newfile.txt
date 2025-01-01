@@ -1,0 +1,3 @@
+git remote add origin git@github.com:alphaket14/strollr-frontend-dev-test1.git
+git branch -M main
+git push -u origin main
