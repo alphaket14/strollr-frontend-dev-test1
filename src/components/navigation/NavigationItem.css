@@ -1,0 +1,37 @@
+@media screen and (min-width: 992px) {
+    
+    .button-active::before , .button-active::after{
+        content: "";
+        position: absolute;
+    }
+    .button-active{
+        background: #F2F8F2;
+        border-radius: 60px 0 0 60px;
+    }
+    .button-active::before{
+        top: -80px;
+        right: 0;
+        height: 80px;
+        width: 40px;
+        border-bottom-right-radius: 80px;
+        -moz-border-bottom-right-radius: 80px;
+        -webkit-border-bottom-right-radius: 80px;
+        -webkit-box-shadow: 0 40px 0 0 #F2F8F2; 
+        -moz-box-shadow: 0 40px 0 0 #F2F8F2;
+        box-shadow: 0 40px 0 0 #F2F8F2;
+    }
+    .button-active::after{
+        top: 64px;
+        right: 0;
+        height: 80px;
+        width: 40px;
+        border-top-right-radius: 80px;
+        -moz-border-top-right-radius: 80px;
+        -webkit-border-top-right-radius: 80px;
+        -webkit-box-shadow: 0 -40px 0 0 #F2F8F2;
+        -moz-box-shadow: 0 -40px 0 0 #F2F8F2;
+        box-shadow: 0 -40px 0 0 #F2F8F2;
+    }
+}
+
+
